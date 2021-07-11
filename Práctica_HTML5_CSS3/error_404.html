@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Información de la web-->
+    <meta name="description" content="ERROR 404">
+    <meta name="keywords" content="html5, css3, formulario, grid, flexbox">
+    <meta name="author" content="Violeta de Azpiazu">
+
+    <title>Práctica HTML5 y CSS3</title>
+
+    <!-- Enlace a CSS externo -->
+    <link rel=stylesheet href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/slider.css" type="text/css">
+    <link rel="stylesheet" href="css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="css/flex-box.css" type="text/css">
+    <link rel="stylesheet" href="css/caractulas.css" type="text/css">
+    
+    <!--
+    <link rel="stylesheet" href="css/navbar-float.css" type="text/css">
+    -->
+    </head>
+
+
+    <body>
+    <div class="flex-container">
+        <nav class="navbar">
+ 
+            <div id="logo" class="logo">
+                <a href="Index.html" title="Pagina de inicio"><img src="img/popcorn.svg" alt="popcorn box con bebida"></a>
+            </div>
+        
+            <input type="checkbox" id="burger-checkbox">
+            <label for="burger-checkbox" class="burger-label"></label>
+        
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="Index.html">Inicio</a></li>
+                <li class="navbar-item"><a href="error_404.html">Novedades</a></li>
+                <li class="navbar-item"><a href="error_404.html">Series</a></li>
+                <li class="navbar-item"><a href="peliculas.html">Películas</a></li>
+                <li class="navbar-item"><a href="error_404.html">Favoritos</a></li>
+                
+                <li class="navbar-item"> <input class="navbar-item" type="search" id="search-input">
+                    <label for="search-inpupt" class="search-bar"></label>
+                </li>
+                <li class="navbar-item"><a href="error_404.html">Log Out</a></li>
+            </ul>
+            
+         </nav>
+        
+        <section class="error">
+            <div class="error-message">
+                <br>
+                <br>
+                <h1>
+                    Oooooops!!! Error 404!
+                </h1>
+                <h2>
+                    Lo sentimos, pero la página a la que intentas acceder no existe.
+                </h2><br>
+                <img src="img/icons/sad.png"><br>
+                <h2>
+                    <a href="Index.html">Regresa a nuestra página principal</a>
+                </h2>
+            </div>
+        </section>
+   
+        <footer class="footer">
+            <div class="foot-er">
+    
+                <p>2021, All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+    
+    </body>
+</html>

@@ -1,0 +1,66 @@
+/*flex box composition*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar {
+
+}
+
+.slide {
+
+}
+
+.container-sesion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width:100%;
+}
+
+.item-container {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-pelicula {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width:100%;
+}
+
+.container-pelicula h2 {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.item-pelicula {
+    display:flex;
+    flex-flow:row;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.container-info-pelicula {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width:100%;
+}
+

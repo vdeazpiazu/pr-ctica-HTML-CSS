@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Información de la web-->
+    <meta name="description" content="Página con un formulario">
+    <meta name="keywords" content="html5, css3, formulario, grid, flexbox">
+    <meta name="author" content="Violeta de Azpiazu">
+
+    <title>Práctica HTML5 y CSS3</title>
+
+    <!-- Enlace a CSS externo -->
+    <link rel=stylesheet href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/slider.css" type="text/css">
+    <link rel="stylesheet" href="css/navbar.css" type="text/css">
+    <link rel="stylesheet" href="css/flex-box.css" type="text/css">
+    <link rel="stylesheet" href="css/caractulas.css" type="text/css">
+    
+    <!--
+    <link rel="stylesheet" href="css/navbar-float.css" type="text/css">
+    -->
+    </head>
+
+
+    <body>
+    <section class="flex-container">
+        <nav class="navbar">
+ 
+            <div id="logo" class="logo">
+                <a href="Index.html" title="Pagina de inicio"><img src="img/popcorn.svg" alt="popcorn box con bebida"></a>
+            </div>
+        
+            <input type="checkbox" id="burger-checkbox">
+            <label for="burger-checkbox" class="burger-label"></label>
+        
+            <ul class="navbar-list">
+                <li class="navbar-item"><a href="Index.html">Inicio</a></li>
+                <li class="navbar-item"><a href="error_404.html">Novedades</a></li>
+                <li class="navbar-item"><a href="error_404.html">Series</a></li>
+                <li class="navbar-item"><a href="peliculas.html">Películas</a></li>
+                <li class="navbar-item"><a href="error_404.html">Favoritos</a></li>
+                
+                <li class="navbar-item"> <input class="navbar-item" type="search" id="search-input">
+                    <label for="search-inpupt" class="search-bar"></label>
+                </li>
+                <li class="navbar-item"><a href="error_404.html">Log Out</a></li>
+            </ul>
+         </nav>
+
+          
+    <header>
+        <div class="slide">
+            <div class="slide-inner">
+                <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden="" checked="checked">
+                <div class="slide-item">
+                    <img src="img/slider/img_1.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="img/slider/img_2.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="img/slider/img_3.jpg">
+                </div>
+                <input class="slide-open" type="radio" id="slide-4" name="slide" aria-hidden="true" hidden="">
+                <div class="slide-item">
+                    <img src="img/slider/img_4.jpg">
+                </div>
+                <label for="slide-4" class="slide-control prev control-1">‹</label>
+                <label for="slide-2" class="slide-control next control-1">›</label>
+                <label for="slide-1" class="slide-control prev control-2">‹</label>
+                <label for="slide-3" class="slide-control next control-2">›</label>
+                <label for="slide-2" class="slide-control prev control-3">‹</label>
+                <label for="slide-4" class="slide-control next control-3">›</label>
+                <label for="slide-3" class="slide-control prev control-4">‹</label>
+                <label for="slide-1" class="slide-control next control-4">›</label>
+                <ol class="slide-indicador">
+                    <li>
+                        <label for="slide-1" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-2" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-3" class="slide-circulo">•</label>
+                    </li>
+                    <li>
+                        <label for="slide-4" class="slide-circulo">•</label>
+                    </li>
+
+                </ol>
+            </div>
+        </div>
+    </header>
+
+    <section class="container-sesion">
+        <div class="item-container">
+            <h2>Inicia sesión</h2>
+            <form id="form-alta" method="POST" action="peliculas.html" name="form-alta">
+                <label for="username">Nombre de usuario<span class="important">*</span>:</label>
+                <input type="email" id="username" name="username" placeholder="email@email.com"  required><br>
+                <label for="password" title="Utiliza al menos una mayúscula, una minúscula, un número y un carácter especial. Debe contener al menos 8 carácteres">Contraseña<span class="important">*</span>:</label>
+                <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br>
+                <input type="submit" value="Log-In"><br>
+                <a href="error_404.html">¿Has olvidado tu contraseña?</a><br>
+                <a href="error_404.html">¿No tienes un usuario? Regístrate aquí</a><br>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="foot-er">
+
+            <p>2021, All Rights Reserved</p>
+        </div>
+    </footer>
+    </div>
+
+    </body>
+</html>

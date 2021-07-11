@@ -1,0 +1,91 @@
+/*DISEÑO CARÁTULAS DE PELÍCULAS Y SERIES*/
+
+.item-pelicula .pelicula {
+    width: 300px;
+}
+
+.each-movie {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.img-movie {
+  flex: 1;
+  align-content: center;
+
+}
+
+.img-pelicula .img-caratula {
+    width: 250px;
+}
+
+.img-movie .img-caratula {
+  width: 400px;
+  display: block;
+  margin:auto;
+}
+
+.img-movie .trailer {
+  width: 650px;
+  display: block;
+  margin: auto;
+}
+
+.trailer .btn {
+  text-align: center;
+}
+
+.icon {
+    width: 30px;
+    display:block;
+    margin: auto;
+}
+
+.icon-fav {
+  width: 30px;
+  margin-left: 20px;
+  background: none;
+}
+
+.icon-fav:hover {
+  background: url(img/icons/like.png);
+}
+
+.img-pelicula {
+    width: 250px;
+    position: relative;
+    display: flex;
+}
+
+.info-pelicula {
+  visibility: hidden;
+  width: 80%;
+  height: 60%;
+  position: absolute;
+  top: 4.5rem;
+  left: 1.5rem;
+  background-color:white;
+  opacity: 0.9;
+  padding: 2rem;
+  
+  transition-duration: 0.5s;
+}
+
+.img-pelicula:hover .info-pelicula {
+  visibility: visible;
+  
+}
+  
+.headline, .descripcion {
+  color: orangered;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+
+
+

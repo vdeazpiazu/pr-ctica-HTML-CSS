@@ -1,0 +1,33 @@
+WEBVTT
+
+1
+00:00:01.000 --> 00:00:03.000 A:middle T:50%
+Esta es una linea con texto
+
+2
+00:00:03.000 --> 00:00:06.000 A:middle T:0%
+Esta es una linea con texto
+
+3
+00:00:06.000 --> 00:00:09.000 A:middle T:100%
+Esta es una linea con texto
+
+4
+00:00:09.000 --> 00:00:12.000 A:end D:vertical
+Esta es una linea con texto
+
+5
+00:00:12.000 --> 00:00:15.000 A:end D:vertical-lr
+Esta es una linea con texto
+
+6
+00:00:15.000 --> 00:00:18.000 A:start T:100% L:100%
+Esta es una linea con texto
+
+7
+00:00:18.000 --> 00:00:21.000 A:start T:100% L:50%
+Esta es una linea con texto
+
+8
+00:00:21.000 --> 00:00:24.000 A:start T:100% L:0%
+Esta es una linea con texto
